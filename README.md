@@ -1,4 +1,4 @@
-# MNSAM
+# MNASM
 
 /næzəm/
 /næzm/
