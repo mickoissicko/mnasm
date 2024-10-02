@@ -8,4 +8,4 @@ A lightweight, minimalistic, easy-to-use NAS manager software. Its barebones des
 
 The dashboard allows switching between drives and downloading or uploading data extremely easy. MNASM is almost plug-and-play, requiring **barely** any configuration.
 
-The (private) IP and key/password of the NAS is, obviously, required.
+The drive addresses (/dev/xyz) etc. are obviously required.
