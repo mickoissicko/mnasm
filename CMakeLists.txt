@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(mnasm
     src/main.cpp
     src/server/server.cpp
+    src/server/init.cpp
+    src/getconf.cpp
 )
 
 target_link_libraries(mnasm curl)
