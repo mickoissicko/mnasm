@@ -1,6 +1,7 @@
 #include "../lib/gethome/gethome.h"
+#include "../include/etc/char.hpp"
+#include "../include/config.hpp"
 #include "../include/var.hpp"
-
 #include <filesystem>
 #include <iostream>
 #include <cstdlib>
@@ -51,8 +52,8 @@ int CreateConfFile()
             std::cout << "Invalid input. Please enter a valid port number: ";
         }
 
-        ConfigFile << "DEFAULT_MOUNT_LOCATION: " << MountLocation << "\n";
-        ConfigFile << "DEFAULT_PORT: " << Port << "\n";
+        ConfigFile << DEF_MNT_LOC << SPACE << MountLocation << "\n";
+        ConfigFile << DEF_PRT << SPACE << Port << "\n";
         ConfigFile.close();
     }
 
