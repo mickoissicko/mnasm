@@ -7,5 +7,6 @@ const std::string& FromConfig_str(const int OPT);
 const int FromConfig_num(const int OPT);
 
 void InitServer(const int PORT);
+void GetConf();
 
 #endif
